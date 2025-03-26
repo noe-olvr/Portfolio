@@ -49,3 +49,10 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 });
+
+// Fonction pour fermer la bannière
+document.addEventListener("DOMContentLoaded", function() {
+    document.getElementById("bouton-accepter").addEventListener("click", function() {
+      document.getElementById("banniere").style.display = "none";
+    });
+  });
